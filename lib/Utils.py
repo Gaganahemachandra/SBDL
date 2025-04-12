@@ -13,5 +13,3 @@ def get_spark_session(env):
         return SparkSession.builder \
             .enableHiveSupport() \
             .getOrCreate()
-
-
